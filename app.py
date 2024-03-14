@@ -131,4 +131,4 @@ def both(start, end):
     return jsonify(start_end_temps)
     
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, threaded=False)
